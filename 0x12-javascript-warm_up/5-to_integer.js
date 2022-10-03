@@ -1,7 +1,7 @@
 #!/usr/bin/node
-let a = process.argv[2];
-if (isNAN(a)) {
+let arg = process.argv[2];
+if (isNAN(arg)) {
   console.log('Not s number');
 } else {
-  console.log('My number: ' + a);
+  console.log('My number: ' + arg);
 }
